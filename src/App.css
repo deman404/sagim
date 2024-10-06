@@ -1,0 +1,52 @@
+/* Ensures the page takes up the full width and height */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Ensure the app container uses full width */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Additional global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #181920;
+  margin: 0;
+  padding: 0;
+}
+
+/* Example styles for the App component */
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ple {
+  position: absolute;
+  top: -30%;
+  right: 30%;
+}
+.ple1 {
+  position: absolute;
+  top: 0px;
+  left: -20%;
+  bottom: 10%;
+  opacity: 0.8;
+}
+.ple2 {
+  position: absolute;
+  top: 0px;
+  right: -20%;
+  bottom: 10%;
+  opacity: 0.8;
+}
