@@ -1,4 +1,4 @@
-import "./TopPage.css";
+import "./TopPage.module.css";
 import TopImage from "../../assets/images/top.png";
 import useWindowSize from "../../Hooks/useWindowSize";
 import React, { useState, useEffect } from "react";

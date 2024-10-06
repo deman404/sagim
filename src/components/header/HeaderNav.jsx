@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeaderNav.css";
+import "./HeaderNav.module.css";
 import useWindowSize from "../../Hooks/useWindowSize";
 import LogoDark from "../../assets/images/lightLogo.png";
 import { IoLogIn } from "react-icons/io5";

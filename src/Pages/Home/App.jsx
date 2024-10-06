@@ -6,7 +6,7 @@ import TopPage from "../../components/TopPage/TopPage";
 import ple from "../../assets/images/ple.png";
 import ple1 from "../../assets/images/ple2.png";
 import Deplome from "../../components/deplome/deplome";
-
+import About from "../../components/About/About";
 function App() {
   return (
     <div className="app">
@@ -16,6 +16,7 @@ function App() {
       <Header />
       <div className='mainDiv'>
         <TopPage />
+        <About/>
         <Deplome />
       </div>
     </div>
