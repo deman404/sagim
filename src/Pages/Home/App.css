@@ -7,6 +7,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Ensure the app container uses full width */
@@ -22,7 +23,17 @@ body {
   margin: 0;
   padding: 0;
 }
+.mainDiv{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
 /* Example styles for the App component */
 .app {
   width: 100%;
@@ -38,10 +49,11 @@ body {
 }
 .ple1 {
   position: absolute;
-  top: 0px;
+  top: 400px;
   left: -20%;
   bottom: 10%;
   opacity: 0.8;
+
 }
 .ple2 {
   position: absolute;
@@ -49,4 +61,5 @@ body {
   right: -20%;
   bottom: 10%;
   opacity: 0.8;
+
 }
