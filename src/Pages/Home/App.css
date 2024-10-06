@@ -32,6 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
 }
 /* Example styles for the App component */
