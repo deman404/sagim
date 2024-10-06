@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.module.css";
+import "./About.css";
 import useWindowSize from "../../Hooks/useWindowSize";
 function About() {
   const size = useWindowSize();

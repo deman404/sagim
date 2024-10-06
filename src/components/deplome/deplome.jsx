@@ -1,5 +1,5 @@
 import React from "react";
-import "./deplome.module.css";
+import "./deplome.css";
 import Card from "../tools/Cards";
 import useWindowSize from "../../Hooks/useWindowSize";
 function Deplome() {

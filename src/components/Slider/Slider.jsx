@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Slider.module.css'; // Import your styles
+import './Slider.css'; // Import your styles
 
 const images = [
   'https://lh3.googleusercontent.com/p/AF1QipNvL9rE7ke0JUhQk2F6bhsXulxUeMO6O5RW1x_8=s680-w680-h510', // Image 1
