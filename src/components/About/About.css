@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 .Top3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px 20% 10px 20%;
-  width: 100%;
 }
 .title-container {
   display: flex;
@@ -50,25 +48,125 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
-}
-.card:hover {
-  box-shadow: 0 18px 2px 10px rgba(45, 52, 146, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  cursor: pointer;
+  margin: 50px;
 }
 .leftSide {
+  backdrop-filter: blur(11px);
+  border-radius: 180px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightSide{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.ImageBorders {
   background: rgba(74, 144, 226, 0.1);
   box-shadow: 0 8px 32px 0 rgba(44, 48, 112, 0.37);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
-  border-radius: 180px;
-  width: 800px;
-}
-.ImageBorders {
-  background-color: #6362ed;
   padding: 5px;
   width: 300px;
   border-radius: 180px;
+}
+
+.spanData {
+  background: rgba(74, 144, 226, 0.1);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 2px 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
+  transition: all 0.5s ease;
+}
+.spanData2 {
+  background: rgba(74, 144, 226, 0.1);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 2px 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 350px;
+  transition: all 0.5s ease;
+}
+.span1 {
+  position: absolute;
+  left: 285px;
+  top: 50px;
+}
+
+.span3 {
+  position: absolute;
+  left: 305px;
+  top: 130px;
+}
+
+.span2 {
+  position: absolute;
+  left: 285px;
+  top: 210px;
+}
+
+.span4 {
+  position: absolute;
+  left: -350px;
+  top: 210px;
+}
+
+.span5 {
+  position: absolute;
+  left: -370px;
+  top: 130px;
+}
+
+.span6 {
+  position: absolute;
+  left: -350px;
+  top: 50px;
+}
+
+.imageB {
+  width: 60px;
+  height: 50px;
+  background: rgba(74, 144, 226, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(44, 48, 112, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spanData h1 {
+  font-size: 18px;
+  padding-left: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+  width: 100%;
+}
+.spanData2 h1 {
+  font-size: 18px;
+  margin-left: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+  width: 100%;
+
+}
+.spanRight{
+  background-color: #6362ed;
+  width: 350px;
 }

@@ -63,19 +63,19 @@ function TopPage() {
       <div
         className="Top"
         style={{
-          display: size.width > 800 ? "flex" : "block",
-          width: size.width > 1300 ? "100%" : "80%",
+          display: size.width > 600 ? "flex" : "block",
+          width: size.width > 800 ? "60%" : "80%",
         }}
       >
         <div className="TopLeft">
-          <h1 style={{ fontSize: size.width > 800 ? "125px" : "70px" }}>
+          <h1 style={{ fontSize: size.width > 1300 ? "125px" : "70px" }}>
             S.A.G.I.M
           </h1>
           <div className="TextChanger">
             <h3
               style={{
-                fontSize: size.width > 800 ? "35px" : "25px",
-                width: size.width > 800 ? "" : "400px",
+                fontSize: size.width > 1300 ? "35px" : "25px",
+                width: size.width > 1300 ? "" : "400px",
               }}
             >
               {currentText}
@@ -84,7 +84,7 @@ function TopPage() {
           <p
             style={{
               fontSize: size.width > 800 ? "25px" : "18px",
-              width: size.width > 800 ? "" : "300px",
+              width: size.width > 1300 ? "600px" : "300px",
             }}
           >
             Depuis 1996, notre établissement a diplômé plus de 100k
@@ -98,7 +98,7 @@ function TopPage() {
             src={TopImage}
             alt="logo"
             className="TopImag"
-            style={{ width: size.width > 900 ? "400px" : "350px" }}
+            style={{ width: size.width > 900 ? "400px" : "300px" }}
           />
         </div>
       </div>

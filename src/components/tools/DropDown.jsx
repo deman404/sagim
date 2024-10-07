@@ -20,7 +20,7 @@ const DropDown = () => {
         <ul className="list">
           <li className="element">
             <IoBook size={20}/>
-            <p className="label">Services</p>
+            <p className="label">Diplomes</p>
           </li>
           <li className="element">
             <IoChatbubblesSharp size={20}/>
